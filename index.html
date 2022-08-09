@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Landing</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header__container">
+          <div class="logo header__logo">
+            <img id="logo" src="DSI.svg" alt="DSI">
+            <img id="logo-labels" src="logo-labels.svg" alt="Labels">
+          </div>
+          <nav class="header__menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="">Services</a></li>
+              <li class="menu__item"><a href="">Product</a></li>
+              <li class="menu__item"><a href="">Technology</a></li>
+              <li class="menu__item drop-down">
+                <a href="">About</a>
+                <div class="drop-down__menu">
+                  <ul>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Team member</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Location</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu__item drop-down">
+                <a href="">Client</a>
+                <div class="drop-down__menu">
+                  <ul>
+                    <li><a href="#">Client</a> list</li>
+                    <li><a href="#">Testimonial</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu__item"><a href="">Partner</a></li>
+            </ul>
+          </nav>
+          <div class="header__actions">
+            <button class="header__icon"><img src="/header-actions-buttons/home.svg" alt="Home"></button>
+            <button class="header__icon"><img src="/header-actions-buttons/mail.svg" alt="Mail"></button>
+            <button class="header__icon"><img src="/header-actions-buttons/shuffle.svg" alt="Shuffle"></button>
+            <button class="burger" onclick="toggleMenu()"><img id="burger-icon" src="/menu.svg" alt=""></button>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <section class="information-technology">
+          <div class="information-technology__container">
+            <div class="information-technology__text">
+              <h1>Making the most of the ever-growing <span>Information Technology</span></h1>
+              <p>Managed by a team of professional experts with extensive experience and impressive track records</p>
+              <button class="button">Read More</button>
+            </div>
+            
+            <div class="information-technology__media">
+              <img src="/information-technology-media.svg" alt="Media">
+            </div>
+          </div>
+        </section>
+        <section class="welcome">
+          <div class="welcome__container">
+            <div class="welcome__media">
+              <img src="/welcome-media.svg" alt="Media">
+            </div>
+            <div class="welcome__text">
+              <h2>Welcome to <span>Dwidasa Samsara Indonesia (DSI)</span></h2>
+              <p>Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by the founders, who each of them has a common end objective to innovate new creations by making the most of the ever-growing information technology through DSI’s distinct front-end based application concept.</p>
+              <p>Managed by a team of professional experts with extensive experience and impressive track records, DSI believes that continuous improvements and innovations assure your business to run effectively and efficiently.</p>
+            </div>
+          </div>
+        </section>
+        <section class="product">
+          <h2>Product and Service</h2>
+          <div class="product__container">
+            <div class="product__block">
+              <img src="/product-icons/our-product.svg" alt="Our product">
+              <h3>Our Product</h3>
+              <p>Our product is made on the base of our team’s careful research and analyses, ranging from internet based application.</p>
+              <button class="button">Read More</button>
+            </div>
+            <div class="product__block">
+              <img src="/product-icons/our-service.svg" alt="Our service">
+              <h3>Our Service</h3>
+              <p>DSI's shared service solutions focus on the front-end based software development, designed specifically for the banking and financial sectors.</p>
+              <button class="button">Read More</button>
+            </div>
+            <div class="product__block">
+              <img src="/product-icons/our-technology.svg" alt="Our technology">
+              <h3>Our Technology</h3>
+              <p>First JAVA, runs on more than 850 million personal computers worldwide, and on billions of devices worldwide, including mobile and TV devices.</p>
+              <button class="button">Read More</button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="info">
+          <div class="info__container">
+            <div class="info__location">
+              <div class="logo">
+                <img src="DSI.svg" alt="DSI">
+                <img src="logo-labels.svg" alt="Labels">
+              </div>
+              <div class="location__text">
+                <h4>PT Dwidasa Samsara Indonesia</h4>
+                <p>
+                  Ruko Jalur Sutera 29A No. 53 
+                  <br>
+                  Alam Sutera Serpong, Tangerang 15323
+                </p>
+              </div>
+            </div>
+            <div class="info__contact">
+              <h3>Contact</h3>
+              <p>
+                Phone : +62.21.5314.1135
+                <br>
+                Fax : +62.21.5314.1135
+                <br>
+                Email : community@dwidasa.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">Copyright © 2015 - Dwidasa Samsara Indonesia</div>
+      </footer>      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
